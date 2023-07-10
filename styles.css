@@ -1,0 +1,23 @@
+/* GLOBAL RESETS */
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.carousel {
+  max-width: 50%;
+  margin: 0 auto;
+}
