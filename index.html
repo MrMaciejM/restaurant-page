@@ -8,15 +8,54 @@
       href="./assets/bootstrap-5.3.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./queries.css" />
     <script src="./assets/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
-    <title>Tandoori Treats</title>
+    <title>Manjit's Paradise</title>
   </head>
   <body>
     <header>
+      <div class="navMenuDiv">
+        <img
+        src="./assets/images/navIconColored.png"
+        id="navMenuImg"
+          class="btn btn-primary"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        ></img>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          data-bs-backdrop="false"
+          tabindex="-1"
+          id="offcanvasScrolling"
+          aria-labelledby="offcanvasScrollingLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+              Offcanvas with body scrolling
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <p>
+              Try scrolling the rest of the page to see this option in action.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img class="mpLogo" src="./assets/images/testPepper.png" alt="" />
+      </div>
       <div></div>
-      <h1>Tandoori Treats</h1>
-      <nav><a href="">Dishes</a></nav>
     </header>
+    <h1>Home to the best Punjabi dishes in the county,<br> with lavish lounges and the best music</h1>
     <main>
       <h2>Dishes</h2>
       <!--  -->

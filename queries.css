@@ -1,0 +1,21 @@
+/* iPhone 7 screen width */
+@media screen and (max-width: 475px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  #navMenuImg {
+    background-color: transparent;
+    border: none;
+    width: 60%;
+    margin-top: -2rem;
+  }
+  .mpLogo {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
