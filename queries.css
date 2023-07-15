@@ -5,7 +5,7 @@
   --carouselControlTheme: #000;
 }
 /* iPhone 7 screen width */
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 2475px) {
   header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -49,14 +49,31 @@
   /* DISHES CONTAINER */
   .dishesContainer {
     display: grid;
+    position: relative;
     grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    max-width: 100%;
+    /* border: solid 1px red; */
   }
   .dishesFrame {
     background-image: url("./assets/images/imageFrame1.png");
-    width: 95%;
-    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 95%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* border: solid 1px lime; */
   }
+
   .dishesFrame img {
-    width: 30%;
+    background-position: right;
+    width: 92%;
+    height: 94%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
   }
 }
