@@ -1,5 +1,8 @@
 :root {
   --introHeading: #fee4b3;
+
+  /* Carousel */
+  --carouselControlTheme: #000;
 }
 /* iPhone 7 screen width */
 @media screen and (max-width: 475px) {
@@ -29,5 +32,31 @@
   }
   .sectionDivider:first-of-type {
     margin: 1rem 0;
+  }
+
+  /* Carousel */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: var(--carouselControlTheme);
+    opacity: 0.6;
+    width: 10%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(0);
+  }
+
+  /* DISHES CONTAINER */
+  .dishesContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .dishesFrame {
+    background-image: url("./assets/images/imageFrame1.png");
+    width: 95%;
+    height: 100%;
+  }
+  .dishesFrame img {
+    width: 30%;
   }
 }
