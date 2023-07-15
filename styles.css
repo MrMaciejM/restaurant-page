@@ -1,9 +1,23 @@
 /* GLOBAL RESETS */
 * {
-  font-family: sans-serif;
+  font-family: "Lugrasimo-Regular", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* FONTS */
+@font-face {
+  font-family: "Lugrasimo-Regular";
+  src: url("./assets/fonts/Lugrasimo/Lugrasimo-Regular.ttf") format("truetype");
+  /* Additional font properties and declarations */
+}
+
+/* WALLPAPER */
+body {
+  background-image: url("./assets/images/restaurant-background-darker.png");
+  background-position: center;
+  background-size: 200%;
 }
 
 /* HELPER CLASSES */
@@ -14,7 +28,7 @@
 body,
 a {
   color: #fee4b3;
-  background-color: #1d1d1d;
+  background-color: #242424;
 }
 
 header {
@@ -24,7 +38,8 @@ header {
 }
 
 h1,
-h2 {
+h2,
+.dishesFrame p {
   text-align: center;
 }
 

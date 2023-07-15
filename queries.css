@@ -1,11 +1,11 @@
 :root {
-  --introHeading: #fee4b3;
-
+  --fontColorMain: #fee4b3;
   /* Carousel */
   --carouselControlTheme: #000;
 }
 /* iPhone 7 screen width */
 @media screen and (max-width: 2475px) {
+    
   header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -22,13 +22,14 @@
   }
 
   .introSection {
-    color: var(--introHeading);
+    color: var(--fontColorMain);
     margin: 0 1rem;
   }
   h1 {
     font-size: 1rem;
     text-align: center;
     font-style: italic;
+    margin: 0 0.2rem;
   }
   .sectionDivider:first-of-type {
     margin: 1rem 0;
@@ -75,5 +76,17 @@
     object-fit: cover;
     position: relative;
     z-index: -1;
+  }
+  .dishesFrame p {
+    position: absolute;
+    top: 84%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%); /* Center the element */
+    color: var(--fontColorMain);
+    background-color: #000;
+    opacity: 0.7;
+    width: 85%;
+    font-size: 120%;
+    z-index: 1;
   }
 }
