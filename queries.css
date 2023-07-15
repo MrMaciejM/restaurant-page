@@ -1,3 +1,6 @@
+:root {
+  --introHeading: #fee4b3;
+}
 /* iPhone 7 screen width */
 @media screen and (max-width: 475px) {
   header {
@@ -14,8 +17,17 @@
   .mpLogo {
     width: 100%;
   }
+
+  .introSection {
+    color: var(--introHeading);
+    margin: 0 1rem;
+  }
   h1 {
     font-size: 1rem;
     text-align: center;
+    font-style: italic;
+  }
+  .sectionDivider:first-of-type {
+    margin: 1rem 0;
   }
 }

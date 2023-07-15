@@ -6,9 +6,14 @@
   box-sizing: border-box;
 }
 
+/* HELPER CLASSES */
+.sectionDivider {
+  margin: 2rem 0;
+}
+
 body,
 a {
-  color: #c1c110;
+  color: #fee4b3;
   background-color: #121212;
 }
 
