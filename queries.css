@@ -4,8 +4,7 @@
   --carouselControlTheme: #000;
 }
 /* iPhone 7 screen width */
-@media screen and (max-width: 2475px) {
-    
+@media screen and (max-width: 375px) {
   header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -77,16 +76,26 @@
     position: relative;
     z-index: -1;
   }
+  /* Name of the dish and see-through background */
   .dishesFrame p {
     position: absolute;
-    top: 84%; /* Adjust the vertical position */
+    top: 83%; /* Adjust the vertical position */
     left: 50%; /* Adjust the horizontal position */
     transform: translate(-50%, -50%); /* Center the element */
     color: var(--fontColorMain);
     background-color: #000;
     opacity: 0.7;
-    width: 85%;
-    font-size: 120%;
+    width: 82%;
+    font-size: 100%;
     z-index: 1;
   }
+  /* Lounges */
+  .loungesContainer {
+    /*  */
+  }
+  .loungesContainer img {
+    width: 50%;
+  }
+
+
 }
