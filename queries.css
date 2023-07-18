@@ -5,6 +5,15 @@
 }
 /* iPhone 7 screen width */
 @media screen and (max-width: 375px) {
+  /* SIDE MENU */
+  .offcanvas {
+    background-color: var(--fontColorMain);
+  }
+  .offcanvas-header,
+  .offcanvas-body {
+    font-style: italic;
+  }
+
   header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -90,12 +99,13 @@
     z-index: 1;
   }
   /* Lounges */
-  .loungesContainer {
-    /*  */
+  .loungeContainer div {
+    display: flex;
+    justify-content: center;
   }
-  .loungesContainer img {
-    width: 50%;
+  .loungeContainer img {
+    width: 80%;
+    border-radius: 11px;
+    box-shadow: 0px 0px 8px 1px var(--fontColorMain);
   }
-
-
 }

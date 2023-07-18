@@ -6,11 +6,15 @@
   box-sizing: border-box;
 }
 
-/* FONTS */
+/* FONTS & FONT STYLE */
 @font-face {
-  font-family: "Lugrasimo-Regular";
-  src: url("./assets/fonts/Lugrasimo/Lugrasimo-Regular.ttf") format("truetype");
+  font-family: "Kalam", "Lugrasimo-Regular";
+  src: url("./assets/fonts/Lugrasimo/Lugrasimo-Regular.ttf"),
+    url("./assets/fonts/Kalam/Kalam-Regular.ttf") format("truetype");
   /* Additional font properties and declarations */
+}
+body {
+  font-style: italic;
 }
 
 /* WALLPAPER */
