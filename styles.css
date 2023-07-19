@@ -17,6 +17,12 @@ body {
   font-style: italic;
 }
 
+h1,
+h2,
+.dishesFrame p {
+  text-align: center;
+}
+
 /* WALLPAPER */
 body {
   background-image: url("./assets/images/restaurant-background-darker.png");
@@ -41,11 +47,7 @@ header {
   align-items: center;
 }
 
-h1,
-h2,
-.dishesFrame p {
-  text-align: center;
-}
+/* MARGINS */
 
 .carousel {
   max-width: 80%;

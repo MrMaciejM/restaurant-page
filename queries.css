@@ -2,6 +2,8 @@
   --fontColorMain: #fee4b3;
   /* Carousel */
   --carouselControlTheme: #000;
+  /* Lounge */
+  --loungeImageShadow: #a69677;
 }
 /* iPhone 7 screen width */
 @media screen and (max-width: 375px) {
@@ -98,14 +100,22 @@
     font-size: 100%;
     z-index: 1;
   }
-  /* Lounges */
-  .loungeContainer div {
+
+  /* Lounges AND Dining Area, aka className = clientContainer */
+  .clientContainer div {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
   }
-  .loungeContainer img {
+  .clientContainer img {
     width: 80%;
     border-radius: 11px;
-    box-shadow: 0px 0px 8px 1px var(--fontColorMain);
+    box-shadow: 0px 0px 5px 1px var(--loungeImageShadow);
   }
+  .clientParagraph {
+    margin: 0 1rem;
+    text-align: center;
+  }
+
+  /* Dining Area  */
 }
