@@ -129,9 +129,6 @@
   }
 
   /* FOOTER */
-  footer {
-    background-color: #242424;
-  }
   footer section {
     display: flex;
     flex-direction: column;
@@ -152,5 +149,12 @@
   }
   .socialLinksContainer img {
     width: 50%;
+  }
+
+  /* COPYRIGHT */
+  #copyright {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #242424 !important;
   }
 }

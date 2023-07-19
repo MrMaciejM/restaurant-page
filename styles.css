@@ -27,7 +27,7 @@ h2,
 a {
   text-decoration: none;
   background-color: transparent !important;
-  color: #51e251 !important;
+  color: var(--fontColorMain) !important;
 }
 
 /* WALLPAPER */
@@ -35,6 +35,11 @@ body {
   background-image: url("./assets/images/restaurant-background-darker.png");
   background-position: center;
   background-size: 200%;
+}
+
+footer {
+  background-color: #242424;
+  background-image: none !important;
 }
 
 /* HELPER CLASSES */
