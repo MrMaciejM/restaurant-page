@@ -48,7 +48,9 @@ header {
 }
 
 /* MARGINS */
-
+h2 {
+  margin-bottom: 1rem;
+}
 .carousel {
   max-width: 80%;
   margin: 0 auto;
