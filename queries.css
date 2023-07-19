@@ -117,7 +117,7 @@
     margin: 0 1rem;
     text-align: center;
   }
-  /* Dining Area  */
+
   /* Location */
   .locationSection {
     display: flex;
@@ -126,5 +126,31 @@
   iframe {
     width: 90%;
     height: auto;
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: #242424;
+  }
+  footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer section a {
+    margin: 0.3rem 0;
+  }
+  .socialLinksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .socialLinksContainer a {
+    /* Moves the images to center */
+    text-align: center;
+  }
+  .socialLinksContainer img {
+    width: 50%;
   }
 }

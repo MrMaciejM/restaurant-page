@@ -23,6 +23,13 @@ h2,
   text-align: center;
 }
 
+/* LINKS */
+a {
+  text-decoration: none;
+  background-color: transparent !important;
+  color: #51e251 !important;
+}
+
 /* WALLPAPER */
 body {
   background-image: url("./assets/images/restaurant-background-darker.png");
