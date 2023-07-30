@@ -14,12 +14,15 @@
   /* Additional font properties and declarations */
 }
 body {
+  /* position: fixed !important; */
   font-style: italic;
 }
 
+/* TEXT ALIGNMENTS */
 h1,
 h2,
-.dishesFrame p {
+.dishesFrame p,
+.offcanvas-body a {
   text-align: center;
 }
 
@@ -32,9 +35,9 @@ a {
 
 /* WALLPAPER */
 body {
-  background-image: url("./assets/images/restaurant-background-darker.png");
+  /* background-image: url("./assets/images/restaurant-background-darker.png");
   background-position: center;
-  background-size: 200%;
+  background-size: 200%; */
 }
 
 footer {
@@ -47,6 +50,7 @@ footer {
   margin: 5rem 0;
 }
 
+/* BACKGROUND */
 body,
 a {
   color: #fee4b3;

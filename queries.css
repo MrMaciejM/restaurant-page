@@ -1,19 +1,55 @@
 :root {
   --fontColorMain: #fee4b3;
+  /* Side Menu aka offcanvas */
+  --sideMenuBackground: #080808;
+  --sideMenuLinksColor: #fffbd1;
+  --sideMenuLinksBackground: transparent;
   /* Carousel */
   --carouselControlTheme: #000;
   /* Lounge */
   --loungeImageShadow: #a69677;
 }
 /* iPhone 7 screen width */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1375px) {
+  /* TESTING ONLY - REMOVE AT THE END */
+  .offcanvas-header h5 {
+    font-size: 1.4rem !important;
+    font-weight: 600;
+  }
+  .offcanvas-body a,
+  .offcanvas-header h5 {
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+
   /* SIDE MENU */
   .offcanvas {
-    background-color: var(--fontColorMain);
+    background-color: var(--sideMenuBackground);
+    border-top: solid 1px var(--sideMenuLinksColor) !important;
+    border-right: solid 1px var(--sideMenuLinksColor) !important;
+    border-bottom: solid 1px var(--sideMenuLinksColor) !important;
+
+    width: 50% !important;
+    border-radius: 0 9px 9px 0;
   }
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .offcanvas-header {
+    overflow-y: hidden !important;
+  }
+
   .offcanvas-header,
   .offcanvas-body {
     font-style: italic;
+  }
+  /* off-canvas links */
+  .offcanvas-body a {
+    text-decoration: underline;
+    color: var(--sideMenuLinksColor) !important;
+    background-color: var(--sideMenuLinksBackground);
   }
 
   header {
