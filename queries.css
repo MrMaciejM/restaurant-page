@@ -11,6 +11,9 @@
 }
 /* iPhone 7 screen width */
 @media screen and (max-width: 1375px) {
+  /* Socials Filter */
+  .socialLinksContainer img {
+  }
   /* TESTING ONLY - REMOVE AT THE END */
   .offcanvas-header h5 {
     font-size: 1.4rem !important;
@@ -28,7 +31,6 @@
     border-top: solid 1px var(--sideMenuLinksColor) !important;
     border-right: solid 1px var(--sideMenuLinksColor) !important;
     border-bottom: solid 1px var(--sideMenuLinksColor) !important;
-
     width: 50% !important;
     border-radius: 0 9px 9px 0;
   }
