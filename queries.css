@@ -1,6 +1,7 @@
 :root {
   --fontColorMain: #fee4b3;
   /* Side Menu aka offcanvas */
+  --sideMenuBtnBackground: #121212;
   --sideMenuBackground: #080808;
   --sideMenuLinksColor: #fffbd1;
   --sideMenuLinksBackground: transparent;
@@ -8,6 +9,9 @@
   --carouselControlTheme: #000;
   /* Lounge */
   --loungeImageShadow: #a69677;
+
+  /* Transparent Black */
+  --transparentBlack: rgb(10, 10, 10, 0.9);
 }
 /* iPhone 7 screen width */
 @media screen and (max-width: 1375px) {
@@ -56,28 +60,39 @@
 
   header {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    row-gap: 2rem;
   }
-
+  .navMenuDiv {
+    margin: 0;
+    padding: 0;
+  }
   #navMenuImg {
-    background-color: transparent;
+    background-color: var(--sideMenuBtnBackground);
     border: none;
-    width: 60%;
+    width: 80%;
     margin-top: -2rem;
+    border-radius: 50%;
+    /* border: 2px lime solid; */
   }
   .mpLogo {
     width: 100%;
+    background-color: var(--transparentBlack);
+    border-radius: 50px;
+    /* border: 2px lime solid; */
   }
 
   .introSection {
+    grid-area: 2 / 1 / 3 / 3;
+    /* border: solid 1px lime; */
+    width: 125%;
     color: var(--fontColorMain);
-    margin: 0 1rem;
   }
   h1 {
     font-size: 1rem;
-    text-align: center;
-    font-style: italic;
-    margin: 0 0.2rem;
+    background-color: var(--transparentBlack);
+    margin: 0;
+    padding: 0.5rem 0;
   }
   .sectionDivider:first-of-type {
     margin: 1rem 0;
