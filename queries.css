@@ -77,8 +77,8 @@
   }
   .mpLogo {
     width: 100%;
-    background-color: var(--transparentBlack);
-    border-radius: 50px;
+    background-color: rgb(10, 10, 10, 0.5);
+    border-radius: 20px;
     /* border: 2px lime solid; */
   }
 
@@ -115,17 +115,18 @@
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 3rem;
     justify-items: center;
     max-width: 100%;
+    background-color: #000;
     /* border: solid 1px red; */
   }
   .dishesFrame {
     background-image: url("./assets/images/imageFrame1.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
-    height: 95%;
+    width: 95%;
+    height: 110%;
     max-width: 100%;
     overflow: hidden;
     position: relative;
@@ -133,23 +134,26 @@
   }
 
   .dishesFrame img {
+    position: relative;
+    left: 9%;
+    top: 12%;
     background-position: right;
-    width: 92%;
-    height: 94%;
+    width: 83%;
+    height: 73%;
     object-fit: cover;
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
   /* Name of the dish and see-through background */
   .dishesFrame p {
     position: absolute;
-    top: 83%; /* Adjust the vertical position */
+    top: 80%; /* Adjust the vertical position */
     left: 50%; /* Adjust the horizontal position */
     transform: translate(-50%, -50%); /* Center the element */
     color: var(--fontColorMain);
     background-color: #000;
     opacity: 0.7;
-    width: 82%;
+    width: 84%;
     font-size: 100%;
     z-index: 1;
   }
