@@ -20,6 +20,7 @@
   }
   /* TESTING ONLY - REMOVE AT THE END */
   .offcanvas-header h5 {
+    color: var(--fontColorMain);
     font-size: 1.4rem !important;
     font-weight: 600;
   }
@@ -27,6 +28,13 @@
   .offcanvas-header h5 {
     font-style: normal;
     font-size: 1.2rem;
+  }
+  .btn-close {
+    opacity: 1;
+    box-shadow: none;
+    background-color: #fbf9b1 !important;
+    width: 5%;
+    height: 25%;
   }
 
   /* SIDE MENU */
@@ -118,7 +126,6 @@
     gap: 3rem;
     justify-items: center;
     max-width: 100%;
-    background-color: #000;
     /* border: solid 1px red; */
   }
   .dishesFrame {
@@ -147,13 +154,13 @@
   /* Name of the dish and see-through background */
   .dishesFrame p {
     position: absolute;
-    top: 80%; /* Adjust the vertical position */
-    left: 50%; /* Adjust the horizontal position */
+    top: 79.5%; /* Adjust the vertical position */
+    left: 50.5%; /* Adjust the horizontal position */
     transform: translate(-50%, -50%); /* Center the element */
     color: var(--fontColorMain);
     background-color: #000;
     opacity: 0.7;
-    width: 84%;
+    width: 83%;
     font-size: 100%;
     z-index: 1;
   }
