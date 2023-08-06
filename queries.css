@@ -14,28 +14,11 @@
   --transparentBlack: rgb(10, 10, 10, 0.9);
 }
 /* iPhone 7 screen width */
-@media screen and (max-width: 1375px) {
+@media screen and (min-width: 375px) {
   /* Socials Filter */
   .socialLinksContainer img {
   }
   /* TESTING ONLY - REMOVE AT THE END */
-  .offcanvas-header h5 {
-    color: var(--fontColorMain);
-    font-size: 1.4rem !important;
-    font-weight: 600;
-  }
-  .offcanvas-body a,
-  .offcanvas-header h5 {
-    font-style: normal;
-    font-size: 1.2rem;
-  }
-  .btn-close {
-    opacity: 1;
-    box-shadow: none;
-    background-color: #fbf9b1 !important;
-    width: 5%;
-    height: 25%;
-  }
 
   /* SIDE MENU */
   .offcanvas {
@@ -59,6 +42,25 @@
   .offcanvas-body {
     font-style: italic;
   }
+
+  .offcanvas-header h5 {
+    color: var(--fontColorMain);
+    font-size: 1.4rem !important;
+    font-weight: 600;
+  }
+  .offcanvas-body a,
+  .offcanvas-header h5 {
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+  .btn-close {
+    opacity: 1;
+    box-shadow: none;
+    background-color: #fbf9b1 !important;
+    width: 5%;
+    height: 25%;
+  }
+
   /* off-canvas links */
   .offcanvas-body a {
     text-decoration: underline;
@@ -112,7 +114,7 @@
     background-color: var(--carouselControlTheme);
     opacity: 0.6;
     width: 10%;
-    margin: 0 -1px; 
+    margin: 0 -1px;
   }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
@@ -128,6 +130,8 @@
     gap: 3rem;
     justify-items: center;
     max-width: 100%;
+    background-color: #f5e9bc;
+    padding: 2rem 0;
     /* border: solid 1px red; */
   }
   .dishesFrame {
@@ -222,5 +226,14 @@
     padding: 1rem 0;
     text-align: center;
     background-color: #242424 !important;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  #navMenuImg {
+    width: 65%;
+  }
+  .dishesFrame p {
+    top: 81%; /* Adjust the vertical position */
   }
 }

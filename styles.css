@@ -15,6 +15,14 @@
 }
 body {
   /* position: fixed !important; */
+  /* font-style: italic; */
+}
+.clientParagraph {
+  font-style: italic;
+}
+
+.introSection,
+.dishesFrame p {
   font-style: italic;
 }
 
@@ -72,7 +80,7 @@ header::before {
   position: absolute;
   background-image: url("./assets/images/background-header.png");
   background-position: 75% 115%;
-  filter: grayscale(0.9);
+  filter: grayscale(0.8);
   background-size: 200%;
   background-repeat: no-repeat;
   width: 100%;
