@@ -237,3 +237,21 @@
     top: 81%; /* Adjust the vertical position */
   }
 }
+
+@media screen and (min-width: 565px) {
+  #navMenuImg {
+    width: 55%;
+  }
+  .dishesFrame p {
+    top: 82%; /* Adjust the vertical position */
+  }
+}
+
+@media screen and (min-width: 765px) {
+  #navMenuImg {
+    width: 35%;
+  }
+  .dishesFrame p {
+    top: 82%; /* Adjust the vertical position */
+  }
+}
