@@ -373,11 +373,18 @@
 @media screen and (min-width: 1400px) {
   #mpLogo {
     width: 40%;
-    margin-left: 16rem;
+    margin-left: 17rem;
+  }
+  nav {
+    flex-direction: row;
+    margin-bottom: 5rem;
+    width: 100%;
+    margin-left: -1rem;
   }
   h1 {
     margin-top: 7rem;
     padding: 1rem 0rem;
+    width: 100%;
   }
   h2 {
     font-size: 1.5rem;
