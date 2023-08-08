@@ -373,7 +373,7 @@
 @media screen and (min-width: 1400px) {
   #mpLogo {
     width: 40%;
-    margin-left: 17rem;
+    margin-left: 18rem;
   }
   nav {
     flex-direction: row;
@@ -398,5 +398,58 @@
   }
   .clientParagraph {
     padding: 0 15rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #mpLogo {
+    margin-left: 22rem;
+  }
+  .clientParagraph {
+    padding: 0 25rem;
+  }
+}
+
+@media screen and (min-width: 1919px) {
+  #mpLogo {
+    margin-left: 21rem;
+  }
+  .clientParagraph {
+    padding: 0 29rem;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  #mpLogo {
+    width: 30%;
+    margin-left: 29rem;
+  }
+  .dishesFrame p {
+    top: 82%; /* Adjust the vertical position */
+    font-size: 1rem;
+  }
+  .clientParagraph {
+    padding: 0 35rem;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  #mpLogo {
+    width: 30%;
+    margin-left: 31rem;
+  }
+  nav {
+    font-size: 1.2rem;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 4%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  #mpLogo {
+    width: 30%;
+    margin-left: 33rem;
   }
 }
