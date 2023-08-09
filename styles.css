@@ -13,10 +13,7 @@
     url("./assets/fonts/Kalam/Kalam-Regular.ttf") format("truetype");
   /* Additional font properties and declarations */
 }
-body {
-  /* position: fixed !important; */
-  /* font-style: italic; */
-}
+
 .clientParagraph {
   font-style: italic;
 }
@@ -41,15 +38,8 @@ a {
   color: var(--fontColorMain) !important;
 }
 
-/* WALLPAPER */
-body {
-  /* background-image: url("./assets/images/restaurant-background-darker.png");
-  background-position: center;
-  background-size: 200%; */
-}
-
 footer {
-  background-color: #242424;
+  background-color: var(--mainBackgroundColor);
   background-image: none !important;
 }
 
@@ -62,7 +52,7 @@ footer {
 body,
 a {
   color: #fee4b3;
-  background-color: #242424;
+  background-color: var(--mainBackgroundColor);
 }
 
 header {
@@ -97,9 +87,8 @@ h2 {
   margin: 0 auto;
 }
 .carousel-caption {
-  background-color: #000;
+  background-color: var(--carouselControlTheme);
   opacity: 0.7;
-  /* border-radius: 9px; */
 }
 /* SCROLL BEHAVIOUR */
 #dishes {
